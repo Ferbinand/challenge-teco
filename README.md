@@ -29,6 +29,9 @@ Tecnologias utilizadas para Frontend (*Puerto 3000*)
 
 Instrucciones de uso de la web: 
 
+Entrar desde dos terminales distintas al servidor (server) y al frontend (client) con los comandos cd y el nombre de la carpeta.
+Luego ingresar dentro de la terminal del backend el comando "npm run dev" para encender el servidor. Por ultimo ejecutar el comando "npm start" en el cliente para abrir la pagina.
+
 Nos encontramos con la barra de navegacion con las distintas secciones y botones que indican la funcionalidad a utilizar. Al comenzar, podemos ingresar por el apartado de Crear clientes antes de mostrarlos, ya que si no hay nada en la base de datos, la busqueda devolvera un PopUp con un error. Luego de crearlos podremos acceder normalmente.
 Tenemos la seccion de "mostrar clientes" donde listamos los clientes de manera automatica desde la base de datos al ingresar a la pagina o dejando el filtro vacio
 Luego podemos realizar las acciones anteriormente descriptas al desplegarse la tabla con la informacion por cada cliente o bien filtrando por su DNI.
