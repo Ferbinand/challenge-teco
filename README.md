@@ -6,7 +6,8 @@ Descripcion:
 App web que trae un listado de "clientes" en la base de datos y los imprime en la pagina inicial en forma de tabla con sus datos correspondientes. 
 Las acciones de la app son las de Leer, Filtrar, Editar, Crear y Eliminar como se ha establecido en la peticion del proyecto. Tambien al momento de editar y eliminar un cliente, se emite dentro de la pagina un PopUp para confirmar el cambio o la eliminacion del cliente en la base de datos. O en casos de faltante de datos como por ejemplo al momento de buscar un cliente que no se encuentre por su documento o crear un cliente sin nombre o documento.
 
-Tecnologias utilizadas para backend: 
+
+Tecnologias utilizadas para backend (*Puerto 4500*):
 
 *Mongo Atlas (_por lo cual no esta subida en el documento la base de datos. Se encuentra en la nube_)
 *Node js
@@ -18,7 +19,7 @@ Tecnologias utilizadas para backend:
 *body-parser
 
 
-Tecnologias utilizadas para Frontend: 
+Tecnologias utilizadas para Frontend (*Puerto 3000*)
 
 *React
 *axios
