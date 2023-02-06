@@ -1,40 +1,70 @@
-Proyecto: Pagina web App clientes para soluciones digitales
+# Getting Started with Create React App
 
-Autor: Mariano Alejandro Visgarra
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Descripcion: 
-App web que trae un listado de "clientes" en la base de datos y los imprime en la pagina inicial en forma de tabla con sus datos correspondientes. 
-Las acciones de la app son las de Leer, Filtrar, Editar, Crear y Eliminar como se ha establecido en la peticion del proyecto. Tambien al momento de editar y eliminar un cliente, se emite dentro de la pagina un PopUp para confirmar el cambio o la eliminacion del cliente en la base de datos. O en casos de faltante de datos como por ejemplo al momento de buscar un cliente que no se encuentre por su documento o crear un cliente sin nombre o documento.
+## Available Scripts
 
+In the project directory, you can run:
 
-Tecnologias utilizadas para backend (*Puerto 4500*):
+### `npm start`
 
-*Mongo Atlas (_por lo cual no esta subida en el documento la base de datos. Se encuentra en la nube_)
-*Node js
-*Express
-*mongoose
-*cors
-*nodemon
-*morgan
-*body-parser
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Tecnologias utilizadas para Frontend (*Puerto 3000*)
+### `npm test`
 
-*React
-*axios
-*sweetalert2
-*bootstrap
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-Instrucciones de uso de la web: 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Entrar desde dos terminales distintas al servidor (server) y al frontend (client) con los comandos cd y el nombre de la carpeta.
-Luego ingresar dentro de la terminal del backend el comando "npm run dev" para encender el servidor. Por ultimo ejecutar el comando "npm start" en el cliente para abrir la pagina.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Nos encontramos con la barra de navegacion con las distintas secciones y botones que indican la funcionalidad a utilizar. Al comenzar, podemos ingresar por el apartado de Crear clientes antes de mostrarlos, ya que si no hay nada en la base de datos, la busqueda devolvera un PopUp con un error. Luego de crearlos podremos acceder normalmente.
-Tenemos la seccion de "mostrar clientes" donde listamos los clientes de manera automatica desde la base de datos al ingresar a la pagina o dejando el filtro vacio
-Luego podemos realizar las acciones anteriormente descriptas al desplegarse la tabla con la informacion por cada cliente o bien filtrando por su DNI.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-Espero que les guste! Saludos!
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
